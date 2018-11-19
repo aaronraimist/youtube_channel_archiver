@@ -1,0 +1,4 @@
+# Provide a list of videos, channels, or playlists to download
+
+# Example
+https://www.youtube.com/watch?v=rQXYCzOKMoo

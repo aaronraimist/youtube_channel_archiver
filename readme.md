@@ -1,18 +1,18 @@
-# youtube-dl config - downloading entire channels for archival
+# youtube-dl archival script
 
-by https://www.reddit.com/user/Stephen304
+Originally by https://www.reddit.com/user/Stephen304
 
-https://www.reddit.com/r/DataHoarder/comments/858ny5/my_youtubedl_config_downloading_entire_channels/
+Posted here: https://www.reddit.com/r/DataHoarder/comments/858ny5/my_youtubedl_config_downloading_entire_channels/
+
+Modified to produce mp4s instead of mkvs and put all downloads in a folder instead of just throwing them everywhere.
 
 # Usage
 
-Edit channel urls in `youtube-dl-channels.txt`.
+Enter list of videos, channels, or playlists in `youtube-dl-list.txt`.
 
-Empty file `youtube-dl-archive.txt` is used to store downloaded ids.
+`youtube-dl-archive.txt` is used to store downloaded ids.
 
-## Linux
-
-    chmod +x download_archive.sh
+## Unix
 
 Run using `./download_archive.sh`
 
